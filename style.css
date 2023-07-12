@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    text-align: center;
+}
+body{
+    background-color: #71B48D;
+}
+.hero{
+    height:522px;
+    background-image: url(images/giphy.gif);
+    background-size: cover;
+}
+#title{
+    font-size: 96px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 21px 250px;
+}
+.sub{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #6B7CB6;
+    width:500px;
+    height: 60px;
+    font-size: 40px;
+    font-weight: lighter;
+    color: #251F47;
+    padding: 20px 0px 0px 0px;
+    margin: 33px auto 44px auto;
+    border-radius: 5px;
+}
+.wrapper{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.img3{
+    width: 300px;
+    height: 300px;
+    border: 2px solid #404E7C;
+    border-radius: 50%;
+    opacity: 1;
+
+}
+#creator{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 36px;
+    color:#260F26;
+    text-decoration: underline;
+    margin: 61px auto 20px auto;
+}
+.wrapper1{
+    display:flex;
+    margin: 10px 60px 60px 150px;
+    background-color: #404E7C;
+    border-radius: 5px;
+    width:900px;
+    box-shadow: 10px 10px #6b3b16;
+}
+#me{
+    margin:40px 40px 40px 80px;
+    width: 300px;
+    height: 300px;
+    border: 3px solid #86CB92;
+    border-radius: 50%;
+}
+.child{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px;
+    row-gap: 50px;
+    
+}
+#name{
+    font-family: 'Kavoon', cursive;
+    font-size: 36px;
+    color: #FBB076;
+    font-weight: lighter;
+}
+#pro{
+    font-family: 'Kavoon', cursive;
+    font-size: 32px;
+    color: #FFF9F9;
+    font-weight: lighter;
+}
+#role{
+    font-family: 'Kavivanar', cursive;
+    font-size: 32px;
+    color: #EFE2B2;
+    font-weight: lighter;
+}
+.img3:hover{
+    opacity: 0.3;
+}
+.par-hov{
+    position:absolute;
+    top:810px;
+    font-size: 40px;
+    opacity: 1;
+    text-shadow: 0px 0px 3px black;
+   
+}
+#carnatic{
+    left:90px;
+}
+#marina{
+    left:500px;
+}
+#food{
+    left:980px;
+}
